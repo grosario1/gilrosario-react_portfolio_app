@@ -26,7 +26,7 @@ You can find code repo [here.](https://github.com/grosario1/gilrosario-react_por
 
 ## Tools & resources used:
 
-- Module 18 examples
+- Module 20 examples
 - JavaScript
 - npm package manager - https://docs.npmjs.com/cli/v8/commands/npm-install
 
