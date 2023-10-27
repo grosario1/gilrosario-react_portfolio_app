@@ -1,23 +1,59 @@
-import React from 'react';
+import React from "react";
+import { VscGithubAlt } from "react-icons/vsc";
+import { AiOutlineLinkedin } from "react-icons/ai";
+import { FaInstagram } from "react-icons/fa";
+
+const iconSize = 40;
+
+const footerStyle = {
+  position: "fixed",
+  bottom: 0,
+  left: 0,
+  right: 0,
+  background: "#333",
+  color: "#fff",
+  textAlign: "center",
+  padding: "20px 0",
+};
+
+const iconContainerStyle = {
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+};
 
 function Footer() {
-    return (
-      <footer className="bg-light text-center">
-        <div className="container p-4">
-          <section className="mb-4">
-            <a className="btn btn-outline-dark btn-floating m-1" href="https://github.com/grosario1" role="button">
-              GitHub
+  return (
+    <footer style={footerStyle}>
+      <div style={iconContainerStyle}>
+        <ul className="list-unstyled d-flex">
+          <li className="logo">
+            <a href="https://github.com/grosario1" className="text-white mx-2">
+              <VscGithubAlt size={iconSize} />
             </a>
-            <a className="btn btn-outline-dark btn-floating m-1" href="https://www.linkedin.com/in/gilberto-rosario-8955868/" role="button">
-              LinkedIn
+          </li>
+          <li className="logo">
+            <a href="https://www.linkedin.com/in/gilberto-rosario-8955868" className="text-white mx-2">
+              <AiOutlineLinkedin size={iconSize} />
             </a>
-          </section>
-          <div className="text-center p-3">
-            © {new Date().getFullYear()}. Gil Rosario
-          </div>
-        </div>
-      </footer>
-    );
-  }
-  
-  export default Footer;
+          </li>
+          <li className="logo">
+            <a href="https://www.instagram.com/yourinstagramprofile" className="text-white mx-2">
+              <FaInstagram size={iconSize} />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div className="text-center p-1">
+        © {new Date().getFullYear()}. Gil Rosario
+      </div>
+    </footer>
+  );
+}
+
+export default Footer;
+
+
+
+
+
