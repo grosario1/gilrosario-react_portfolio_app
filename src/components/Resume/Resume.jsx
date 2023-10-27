@@ -4,7 +4,7 @@ function Resume() {
   return (
     <section>
       <h1>Resume</h1>
-      <p>View my LinkedIN profile <a href="www.linkedin.com/in/gilberto-rosario-8955868" download>here</a></p>
+      <p>View my LinkedIN profile <a href="https://www.linkedin.com/in/gilberto-rosario-8955868/">here</a></p>
     </section>
   );
 }
