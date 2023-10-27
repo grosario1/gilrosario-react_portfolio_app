@@ -1,0 +1,25 @@
+body, h1, h2, h3, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Apply some default styling to links */
+  a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  /* Style the root element, which contains your React app */
+  #root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+  }
