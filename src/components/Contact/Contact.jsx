@@ -17,7 +17,7 @@ function Contact() {
   };
 
   return (
-    <section className="container" style={{ maxWidth: "600px" }}>
+    <section className="container mt-5" style={{ maxWidth: "600px" }}> {/* Added mt-5 for top margin */}
       <h1>Contact</h1>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
