@@ -1,10 +1,19 @@
 import React from 'react';
 
 function Portfolio() {
+  const containerStyle = {
+    maxHeight: '600px',
+    overflowY: 'scroll',
+  };
+
+  const sectionStyle = {
+    marginTop: '120px', 
+  };
+
   return (
-    <section id="work" className="section">
-      <div className="container">
-        <h2 className="text-center">Work</h2>
+    <section id="work" className="section" style={sectionStyle}>
+      <div className="container" style={containerStyle}>
+        <h2 className="text-center">My Work</h2>
         <div className="row">
           <div className="col-md-6">
             <div className="card">
@@ -64,7 +73,7 @@ function Portfolio() {
                 <p className="card-text">HTML/CSS</p>
               </div>
             </div>
-          </div>  
+          </div>
         </div>
       </div>
     </section>
