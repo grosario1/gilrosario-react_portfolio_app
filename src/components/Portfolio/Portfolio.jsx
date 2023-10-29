@@ -8,7 +8,7 @@ function Portfolio() {
         <div className="row">
           <div className="col-md-6">
             <div className="card">
-              <img src="./dist/assets/surf-report-image.jpeg" alt="surf-report-img" className="card-img-top" />
+              <img src="/assets/surf-report-image.jpeg" alt="surf-report-img" className="card-img-top" />
               <div className="card-body">
                 <h5 className="card-title">
                   <a href="https://github.com/grosario1/gil-rosario-professional-site">Surf Report</a>
@@ -19,7 +19,7 @@ function Portfolio() {
           </div>
           <div className="col-md-6">
             <div className="card">
-              <img src="./dist/assets/gr-project-2.jpg" alt="led-wall-img" className="card-img-top" />
+              <img src="/assets/gr-project-2.jpg" alt="led-wall-img" className="card-img-top" />
               <div className="card-body">
                 <h5 className="card-title">
                   <a href="https://rhythm-reviews-8a43a75413f9.herokuapp.com/">Rhythm Reviews</a>
@@ -32,7 +32,7 @@ function Portfolio() {
         <div className="row">
           <div className="col-md-6">
             <div className="card">
-              <img src="./dist/assets/calc-img.jpeg" alt="calc-img" className="card-img-top" />
+              <img src="/assets/calc-img.jpeg" alt="calc-img" className="card-img-top" />
               <div className="card-body">
                 <h5 className="card-title">
                   <a href="https://github.com/grosario1?tab=repositories">Calculator</a>
@@ -43,7 +43,7 @@ function Portfolio() {
           </div>
           <div className="col-md-6">
             <div className="card">
-              <img src="./dist/assets/pastel-puzzels-img.jpeg" alt="pastel-puzzels-img" className="card-img-top" />
+              <img src="/assets/pastel-puzzels-img.jpeg" alt="pastel-puzzels-img" className="card-img-top" />
               <div className="card-body">
                 <h5 className="card-title">
                   <a href="https://github.com/grosario1?tab=repositories">Pastel Puzzels</a>
@@ -56,7 +56,7 @@ function Portfolio() {
         <div className="row">
           <div className="col-md-6">
             <div className="card">
-              <img src="./dist/assets/gr-project-1.jpg" alt="run-buddy-img" className="card-img-top" />
+              <img src="/assets/gr-project-1.jpg" alt="run-buddy-img" className="card-img-top" />
               <div className="card-body">
                 <h5 className="card-title">
                   <a href="https://gr-uconn-coding-bootcamp-projects.github.io/Top-Major-Airline-Tracking-App_Group2/">Top Major Airline Tracker</a>

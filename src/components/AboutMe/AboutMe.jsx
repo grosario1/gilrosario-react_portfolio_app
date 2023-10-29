@@ -6,7 +6,7 @@ function AboutMe() {
       <h1>Full Stack Web Developer</h1>
       <div className="mx-auto my-5">
         <img
-          src="./dist/assets/gil-profile-pic.jpg"
+          src="/assets/gil-profile-pic.jpg"
           alt="Gil Rosario"
           className="img-fluid"
           style={{ maxWidth: "130px" }}
