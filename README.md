@@ -1,7 +1,8 @@
 # gilrosario-react_portfolio_app
 ## Description
 
-Info Coming soon
+This site was developed usind React to represent a portfolio of work that showcases my skills and talents in web development to date. It is meant to spark interests from employers whom are looking to fill open software development/engineering roles within their organizations. This portfolio highlights my web development work as well as the thought processes (depicted in this README) behind it.
+
 
 ## Table of Contents
 - [gilrosario-react\_portfolio\_app](#gilrosario-react_portfolio_app)
@@ -19,9 +20,10 @@ First you should clone this repo (https://github.com/grosario1/gilrosario-react_
 
 ## Usage
 
-
+[Live Deployed Site here](https://sparkling-florentine-1d2cb0.netlify.app/)
 
 You can find code repo [here.](https://github.com/grosario1/gilrosario-react_portfolio_app)
+
 
 
 ## Tools & resources used:
