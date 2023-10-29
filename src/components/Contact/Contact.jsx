@@ -48,7 +48,7 @@ function Contact() {
               className="form-control"
               value={formData.message}
               onChange={handleInputChange}
-              style={{ minHeight: "140px" }}
+              style={{ minHeight: "300px" }}
             ></textarea>
           </div>
           <button type="submit" className="btn btn-primary">Submit</button>
