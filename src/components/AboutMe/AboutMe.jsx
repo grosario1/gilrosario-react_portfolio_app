@@ -21,7 +21,7 @@ function AboutMe() {
 
   return (
     <section className="container text-center mt-5">
-      <h1 style={{ fontSize: '32px' }}>Full Stack Web Developer</h1>
+      <h1 style={{ fontSize: '32px', marginTop: '200px' }}>About Me</h1>
       <div className="mx-auto my-5">
         <div className="d-flex justify-content-start align-items-center">
           <img
