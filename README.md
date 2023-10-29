@@ -24,6 +24,7 @@ First you should clone this repo (https://github.com/grosario1/gilrosario-react_
 
 You can find code repo [here.](https://github.com/grosario1/gilrosario-react_portfolio_app)
 
+![SiteScreenshot](https://github.com/grosario1/gilrosario-react_portfolio_app/assets/26330325/44751cfd-6a78-4f9b-a501-71f982a671a6)
 
 
 ## Tools & resources used:
