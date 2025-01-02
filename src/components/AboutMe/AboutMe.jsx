@@ -20,17 +20,19 @@ function AboutMe() {
   }, []);
 
   return (
-    <section className="container text-center mt-5">
-      <h1 style={{ fontSize: '32px' }}>Full Stack Web Developer</h1>
+    <section className="container mt-5">
+      <h1 style={{ fontSize: '32px', paddingTop: '100px', textAlign: 'center' }}>About Me</h1>
       <div className="mx-auto my-5">
-        <div className="d-flex justify-content-start align-items-center">
-          <img
-            src="/assets/gil-profile-pic.jpg"
-            alt="Gil Rosario"
-            className="img-fluid with-border-and-shadow"
-            style={{ maxWidth: "130px" }}
-          />
-          <p className="ml-4 text-left typing-text" style={{ fontSize: '18px', lineHeight: '1.5', padding: '40px' }}>
+        <div className="d-flex">
+          <div>
+            <img
+              src="/assets/gil-profile-pic.jpg"
+              alt="Gil Rosario"
+              className="img-fluid with-border-and-shadow"
+              style={{ maxWidth: "130px" }}
+            />
+          </div>
+          <div className="ml-4 text-left typing-text" style={{ fontSize: '18px', lineHeight: '1.5', padding: '40px' }}>
             <p className="chalkduster-text">
               Hello!... I am Gil Rosario
             </p>
@@ -38,7 +40,7 @@ function AboutMe() {
             <p className="experience-text">
               {text}
             </p>
-          </p>
+          </div>
         </div>
       </div>
     </section>
